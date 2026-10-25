@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie | iCloud for Me</title>
+  <meta name="description" content="소소한 도파민 수집소 · 최정윤A가 오래 붙잡고 있는 영화, 노래, 책, 도시, 앱" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="iCloud for Me · Jungyoon's Picks" />
+  <meta property="og:description" content="소소한 도파민 수집소 · 영화, 노래, 책, 도시, 앱 하나씩" />
+  <meta property="og:image" content="https://ashchoi48.github.io/icloud-for-me/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#B86443" />
+  <link rel="icon" href="cloud.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <img src="cloud.svg" alt="" class="brand-icon" /><span class="brand-title">iCloud for Me</span>
+      </a>
+      <nav aria-label="주요 메뉴">
+        <ul class="nav-links">
+          <li><a href="index.html"><svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg> Home</a></li>
+          <li><a href="movies.html" class="active"><svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M8 2l4 4 4-4"/></svg> Movie</a></li>
+          <li><a href="songs.html"><svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg> Music</a></li>
+          <li><a href="book.html"><svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg> Books</a></li>
+          <li><a href="city.html"><svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg> Maps</a></li>
+          <li><a href="app.html"><svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg> App</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <div class="page-banner">
+      <h1 class="page-title page-title-en"><svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M8 2l4 4 4-4"/></svg> Movie</h1>
+    </div>
+
+    <div class="story-list">
+      <article class="story-card">
+        <div class="story-meta">
+          <span class="story-tag">Movie 01</span>
+          <span class="story-info">Directed by Michael Gracey · 2017</span>
+        </div>
+        <h2 class="story-title">위대한 쇼맨 (The Greatest Showman)</h2>
+        <div style="height:1.2rem"></div>
+        <div class="media-grid poster-video">
+          <div class="media-item poster"><img src="poster-greatest-showman.jpg" alt="〈위대한 쇼맨〉 포스터" onerror="this.onerror=null;this.src='poster.svg'" /></div>
+          <div class="media-item">
+            <div class="video-wrapper" data-yt-id="EodWwczRIe4" data-yt-title="〈위대한 쇼맨〉 공식 예고편">
+              <a href="https://www.youtube.com/watch?v=EodWwczRIe4" target="_blank" rel="noopener noreferrer" class="yt-smart-player" onclick="return playYouTube(event, this)">
+                <img class="yt-thumb" src="https://i.ytimg.com/vi/EodWwczRIe4/hqdefault.jpg" alt="〈위대한 쇼맨〉 공식 예고편 썸네일" />
+                <div class="yt-overlay">
+                  <div class="yt-play-btn" aria-hidden="true"><span class="yt-play-icon"></span></div>
+                  <span class="yt-label-title">〈위대한 쇼맨〉 공식 예고편</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="story-body">
+          <p>좀 갑자기(?) 노래하는 영화를 좋아하는 편입니다. 〈알라딘〉, 〈웡카〉, 〈맘마미아〉처럼 노래가 나오면 몰입감이 확 올라가고, 영화가 끝나도 여운이 오래 남는 것 같아요. 그중 쀄이보릿은 <strong>〈위대한 쇼맨〉</strong>, 최애 장면은 단연 〈This Is Me〉인데요. 월요병 걸린 아침 출근길이나 등굣길에 이 노래를 틀면 하루가 갑자기 웅장해지고 힘이 난달까요..</p>
+        </div>
+      </article>
+      <article class="story-card">
+        <div class="story-meta">
+          <span class="story-tag">Movie 02</span>
+          <span class="story-info">Directed by Christopher Nolan · 2026</span>
+        </div>
+        <h2 class="story-title">오디세이 (The Odyssey)</h2>
+        <div style="height:1.2rem"></div>
+        <div class="media-grid poster-video">
+          <div class="media-item poster"><img src="poster-odyssey.jpg" alt="〈오디세이〉 포스터" onerror="this.onerror=null;this.src='poster.svg'" /></div>
+          <div class="media-item">
+            <div class="video-wrapper" data-yt-id="_n2UiOqW0ZQ" data-yt-title="〈오디세이〉 1차 예고편">
+              <a href="https://www.youtube.com/watch?v=_n2UiOqW0ZQ" target="_blank" rel="noopener noreferrer" class="yt-smart-player" onclick="return playYouTube(event, this)">
+                <img class="yt-thumb" src="https://i.ytimg.com/vi/_n2UiOqW0ZQ/hqdefault.jpg" alt="〈오디세이〉 1차 예고편 썸네일" />
+                <div class="yt-overlay">
+                  <div class="yt-play-btn" aria-hidden="true"><span class="yt-play-icon"></span></div>
+                  <span class="yt-label-title">〈오디세이〉 1차 예고편</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="story-body">
+          <p>아직 안 보신 분은 없을 것 같지만.. 올해 본 영화 중 가장 재밌었던 〈오디세이〉! 줄거리는 다들 아는 그 이야기지만, 이 영화 하나를 위해 새 IMAX 필름 촬영 기술까지 동원해 전부 IMAX 필름 카메라로 찍었다더니 극장에서 보고 바로 납득이 갔어요. 연출, 각본, 배우, 미술, 음악, 사운드까지 빠지는 게 없는 장인정신의 결정체 ※ 주의: 러닝타임이 3시간 가까이 되니 콜라는 조금만 드셔야 중요한 장면을 안 놓칩니다 ㅎㅎ</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="page-pagination">
+      <a href="index.html" class="page-nav-btn">&larr; <svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg> Home</a>
+      <a href="songs.html" class="page-nav-btn"><svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg> Music &rarr;</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="movies.html">Movie</a>
+      <a href="songs.html">Music</a>
+      <a href="book.html">Books</a>
+      <a href="city.html">Maps</a>
+      <a href="app.html">App</a>
+    </div>
+    <p>© 2026 Jungyoon Choi · Still syncing… New picks arrive whenever I find something worth sharing.</p>
+    <p class="footer-tagline">SNU MBA · Synced from Gwanak <svg class="ico sync-ico" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 21v-5h5"/><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M21 3v5h-5"/></svg></p>
+  </footer>
+  <script src="player.js"></script>
+  <script src="reveal.js"></script>
+</body>
+</html>
